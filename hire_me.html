@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My CV</title>
+        <style>
+            label {
+               min-width: 100px;
+               display: block;
+               float:left;
+         }
+         </style>
+    </head>
+
+    <body>
+        <h1>Offer a job</h1>
+        <h2> Contact information</h2>
+        <table border="1" cellspacing="0" cellpaddling="10px">
+            <tr>
+                <th scope="row"><strong>Phone</strong></th>
+                <td>+380681619759</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><strong>Address</strong></th>
+                <td>Lviv, Lazarenka 42</td>
+            </tr>
+        </table>
+    </br>
+        <form>
+            <fieldset>
+                <legend>Contact form</legend>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required autocomplete="on" placeholder="Enter your e-mail">
+
+                 <br>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="7"></textarea>
+
+                 </br>
+
+                <label for="work_type">Work type:</label>
+                <select name="work_type" id="work_type">
+                    <option></option>
+                    <option value="full-time">Full-time</option>
+                    <option value="one-time">One-time project</option>
+                    <option value="remote">Remote</option>
+                </select>
+
+                 </br>
+
+                <input type="submit" value="Hire me">
+            </fieldset>
+        </form>
+    </body>
+</html>
