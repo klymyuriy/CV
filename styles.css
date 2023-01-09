@@ -1,32 +1,56 @@
-.body {
+body {
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
-.body .position {
+.position {
     font-weight: bold;
+    border-color:rgb(174, 79, 2);
+    border-bottom-style:double;
 }
-.body .name {
+.name {
     font-style: italic;
+    border-color:rgb(174, 79, 2);
+    border-bottom-style:double;
 }
 
-.body .table_header {
+.th_exp {
     text-transform: uppercase;
+    background-color: rgba(247, 169, 145, 0.831);
 }
 
-.body .links {
+.links {
     color: #00f;
     text-decoration: underline;
 }
 
-.body .links:visited {
+.links:visited {
     color: #005;
     text-decoration: underline;
 }
 
-.body .links:hover {
+.links:hover {
     text-decoration: none;
 }
 
-.body .items {
+.skills {
     list-style-type: square;
+    border-color:rgb(174, 79, 2);
+    border-bottom-style:double;
 }
+
+.achievements {
+    border-color:rgb(174, 79, 2);
+    border-bottom-style:double;
+}
+
+.my_photo {
+    border-color:rgb(174, 79, 2);
+    border-style:double;
+    border-width: 2px;
+    padding: 10px
+}
+
+.table_exp {
+    background-color: rgba(255, 215, 202, 0.831);
+}
+
