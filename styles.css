@@ -1,57 +1,60 @@
-body {
+.grid-container {
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(4 auto);
+    column-gap: 40px;
 }
 
-.position {
-    font-weight: bold;
+.full-name{
+    background-color: rgb(142, 169, 192);
+    text-align: left;
+    padding: 10px 50px;
 }
 
-.name {
-    font-style: italic;
+.name{
+    color: rgb(243, 236, 228);
+    margin-bottom: -20px;
 }
 
-.th_exp {
-    text-transform: uppercase;
-    background-color: rgba(247, 169, 145, 0.831);
+.surname {
+    color:#2c2681;
 }
 
-.links {
-    color: #00f;
-    text-decoration: underline;
+.my-photo {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(142, 169, 192);
 }
 
-.links:visited {
-    color: #005;
-    text-decoration: underline;
+.contact{
+    background-color: rgb(142, 169, 192);
+    padding:0 50px;
 }
 
-.links:hover {
-    text-decoration: none;
+.work-exp {
+    margin: -150px 0;
 }
-
-.skills {
-    list-style-type: square;
-}
-
-.achievements {
-    border-color:rgb(174, 79, 2);
+.header {
+    border-color:rgb(5, 4, 2);
     border-bottom-style:double;
+    margin:20px 0;
 }
 
-.my_photo {
-    border-color:rgb(174, 79, 2);
-    border-style:double;
-    border-width: 2px;
-    padding: 10px;
-    float:right;
-    height:100px;
-    width:100px;
+.derevo-plus {
+    margin-bottom: 20px;
 }
 
-.table_exp {
-    background-color: rgba(255, 215, 202, 0.831);
-    width:100%;
-    margin-top: 20px;
+.safe-auto {
+    margin-bottom: 20px;
 }
 
+.languages{
+    background-color: rgb(142, 169, 192);
+    padding:0 50px 50px 50px;
+}
+
+.education {
+    margin: -120px 0;
+}
