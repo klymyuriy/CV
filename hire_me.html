@@ -4,13 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>My CV</title>
-        <style>
-            label {
-               min-width: 100px;
-               display: block;
-               float:left;
-         }
-         </style>
+        <link href="./styles.css" rel="stylesheet" />
     </head>
 
     <body>
@@ -32,13 +26,13 @@
             <fieldset>
                 <legend>Contact form</legend>
 
-                <label for="email">E-mail:</label>
+                <label for="email">E-mail:<span class="req">*</span></label>
                 <input type="email" id="email" name="email" required autocomplete="on" placeholder="Enter your e-mail">
 
                  <br>
 
                 <label for="description">Description:</label>
-                <textarea id="description" name="description" rows="7"></textarea>
+                <textarea id="description" name="description" rows="7" placeholder="Type here"></textarea>
 
                  </br>
 
