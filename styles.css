@@ -61,6 +61,11 @@
 
 /** styles for hire_me **/
 
+.hire-me-body{
+    max-width: 1024px;
+    margin: 70px auto;
+}
+
 label {
     min-width: 100px;
     display: block;
@@ -100,11 +105,20 @@ input[type="email"]{
 input[type="email"]:focus{
     outline: none;
     border-color:blue;
-    box-shadow: 0 0 2px blue;
+    box-shadow: 0 0 3px blue;
   }
 
 input[type="email"]:invalid{
     outline: none;
     border-color: red;
     box-shadow: 0 0 3px red;
+}
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+select{
+    margin-bottom: 10px;
 }
